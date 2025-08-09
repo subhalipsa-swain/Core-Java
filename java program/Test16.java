@@ -11,20 +11,20 @@ class Test16{
 	 x[5]=45;
 	 x[6]=66;
 
-	 for(i=0;i<x.length;i++){
+	 for(int i=0;i<x.length;i++){
 		System.out.println("x["+i+"] : "+x[i]);
 	 }
 	 int pos=7;
 	 int newElement=90;
 
-	 for(i=x.length-1;i>pos;i--){
+	 for(int i=x.length-1;i>pos;i--){
 	 	x[i]=x[i-1];
 	 }
 	 x[pos]=newElement;
 
 	 System.out.println("--------------");
 
-	 for(i=0;i<x.length;i++){
+	 for(int i=0;i<x.length;i++){
 		System.out.println("x["+i+"] : "+x[i]);
 	 }
     }
